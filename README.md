@@ -6,29 +6,6 @@ To optimize the grocery product assortment by identifying underperforming items,
 
 The dataset contains 4,996 product records across key attributes including:
 
-Product_ID
-
-Category
-
-Product_Name
-
-Brand
-
-Price & Cost
-
-Units Sold
-
-Shelf Space
-
-Customer Ratings
-
-Frequency of Purchase
-
-Sales & Gross Margin
-
-Customer Count & Transactions
-
-Derived KPIs (Sales per Customer, Shelf Space KPIs, Rating Proxy, Performance Score)
 
 ❓ Business Questions / KPIs Addressed
 
@@ -54,70 +31,20 @@ Gross margin %, profit per unit, negative margin products.
 
 Performance Score
 
-A composite normalized metric combining all key KPIs.
-
-Assortment Decisions
-
-Which products to retain, optimize, or eliminate.
-
 🔄 Process Followed
 1. Data Familiarization
 
-Loaded dataset using files.upload
+2. Defining Metrics
 
-Understood column structure and data types
+3. Data Cleaning
 
-2. Data Cleaning
+4. Data Tranformation
 
-Fixed null values
+5. Visualization & Analysis
+   
+7. Feature Normalization
 
-Removed duplicates
-
-Corrected inconsistent categories/brands
-
-3. Feature Engineering
-
-Created actionable KPIs:
-
-Sales per Customer
-
-Sales per Shelf Space
-
-Gross Margin per Shelf Space
-
-Units Sold per Shelf Space
-
-Profit per Shelf Space
-
-Customer Rating Proxy
-
-Gross Margin per Unit Sold
-
-4. Feature Normalization
-
-Min–max scaled all KPIs
-
-Combined them into a Final Performance Score
-
-5. Segmentation by Percentiles
-
-75th percentile → Top Performers
-
-25–75 percentile → Medium Performers
-
-<25th percentile → Under Performers
-
-6. Visualization & Analysis
-
-Category-wise and brand-wise sales charts
-
-Correlation analysis
-
-Shelf-space efficiency plots
-
-Performance score distribution
-
-7. Recommendations
+8. Recommendations
 
 Expansion, optimization, and elimination strategies based on performance score.
 
