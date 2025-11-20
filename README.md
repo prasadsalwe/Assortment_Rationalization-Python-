@@ -8,13 +8,9 @@ To optimize the grocery product assortment by identifying underperforming items,
 ❓ Business Questions / KPIs Addressed
 
 1. Sales & Margin Metrics
-
-2, Customer Rating Proxy
-
+2. Customer Rating Proxy
 3. Shelf Space Efficiency
-
 4.Product Profitability
-
 5. Performance Score
 
 🔄 Process Followed
