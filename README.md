@@ -2,7 +2,7 @@
 
 To optimize the grocery product assortment by identifying underperforming items, highlighting high-demand and high-margin products, and recommending a rationalization strategy that improves profitability, reduces working capital, and enhances customer satisfaction.
 
-📂 Dataset Used
+📂 Dataset Used - https://github.com/prasadsalwe/Assortment_Rationalization/blob/main/Grocery%20Dataset.xlsx
 
 The dataset contains 4,996 product records across key attributes including:
 
