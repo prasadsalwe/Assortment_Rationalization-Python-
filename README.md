@@ -4,32 +4,18 @@ To optimize the grocery product assortment by identifying underperforming items,
 
 📂 Dataset Used - https://github.com/prasadsalwe/Assortment_Rationalization/blob/main/Grocery%20Dataset.xlsx
 
-The dataset contains 4,996 product records across key attributes including:
-
 
 ❓ Business Questions / KPIs Addressed
 
-Sales & Margin Metrics
+1. Sales & Margin Metrics
 
-Identify top and bottom performers by sales and gross margin.
+2, Customer Rating Proxy
 
-Customer Demand Analysis
+3. Shelf Space Efficiency
 
-Ratings, purchase frequency, and customer proxy (Rating × Frequency).
+4.Product Profitability
 
-Shelf Space Efficiency
-
-Units sold per shelf space
-
-Sales per shelf space
-
-Margin per shelf space
-
-Product Profitability
-
-Gross margin %, profit per unit, negative margin products.
-
-Performance Score
+5. Performance Score
 
 🔄 Process Followed
 1. Data Familiarization
